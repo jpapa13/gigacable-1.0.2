@@ -1,0 +1,29 @@
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\bin\Debug\GIGACABLE.exe.config
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\bin\Debug\GIGACABLE.exe
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\bin\Debug\GIGACABLE.pdb
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.exe
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.pdb
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.MainForm.resources
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.csproj.GenerateResource.Cache
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.csprojAssemblyReference.cache
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.csproj.CoreCompileInputs.cache
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.usuario.resources
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.busqueda.resources
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.Tecnico.resources
+C:\Users\irving\Documents\SharpDevelop Projects\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.detalles.resources
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.csprojResolveAssemblyReference.cache
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.usuario.resources
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.busqueda.resources
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.Tecnico.resources
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.detalles.resources
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.MainForm.resources
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.csproj.GenerateResource.Cache
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.exe
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\bin\Debug\GIGACABLE.exe.config
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\bin\Debug\GIGACABLE.exe
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\bin\Debug\GIGACABLE.pdb
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\bin\Debug\MySql.Data.dll
+C:\Users\jpapa\Documents\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.pdb
+C:\Users\jpapa\Documents\a\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.csprojResolveAssemblyReference.cache
+C:\Users\jpapa\Documents\a\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.exe
+C:\Users\jpapa\Documents\a\GIGACABLE\GIGACABLE\GIGACABLE\obj\Debug\GIGACABLE.pdb
