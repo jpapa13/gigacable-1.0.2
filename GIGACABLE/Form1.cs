@@ -18,8 +18,7 @@ namespace GIGACABLE
 
         private void Button1_Click(object sender, EventArgs e)
         {
-        	Reporte p = new Reporte(turnoTextBox.Text,Int32.Parse(horasTextBox.Text),tipoTextBox.Text,Int32.Parse(cuatriTextBox.Text));
-			p.save();
+
         }
 
         private void Button2_Click(object sender, EventArgs e)
