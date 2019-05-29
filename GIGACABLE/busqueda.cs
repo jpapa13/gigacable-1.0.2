@@ -116,14 +116,13 @@ namespace GIGACABLE
             db_connection();
             MySqlCommand cmd = new MySqlCommand();
             cmd.CommandText = "UPDATE reporte SET status=@status, `fecha_ini`=@fecha_ini, `fecha_fin`=@fecha_fin, `descripcion`=@descripcion,`id_tecnico`=@id_tecnico, `tipo_reporte`=@tipo_reporte  WHERE `id` =@id";
-            //cmd.Parameters.AddWithValue("@id", textBox8.Text);
-            //cmd.Parameters.AddWithValue("@status", textBox4.Text);
-         //   cmd.Parameters.AddWithValue("@fecha_ini",textBox7.Text);
-           // cmd.Parameters.AddWithValue("@fecha_fin",textBox9.Text);
-            cmd.Parameters.AddWithValue("@descripcion",textBox5.Text);
+            cmd.Parameters.AddWithValue("@id", textBox1.Text);
+            cmd.Parameters.AddWithValue("@status", comboBox1.SelectedItem.ToString());
+            cmd.Parameters.AddWithValue("@fecha_ini",dateTimePicker1.Value.ToString("yyyy-MM-dd"));
+            cmd.Parameters.AddWithValue("@fecha_fin",dateTimePicker2.Value.ToString("yyyy-MM-dd"));
             cmd.Parameters.AddWithValue("@id_tecnico",textBox3.Text);
-            cmd.Parameters.AddWithValue("@tipo_reporte","distancia");
-            
+            cmd.Parameters.AddWithValue("@tipo_reporte",comboBox2.SelectedIndex);
+            cmd.Parameters.AddWithValue("@descripcion",textBox5.Text);
             cmd.Connection = connect;
             MySqlDataReader reporte = cmd.ExecuteReader();
             	MessageBox.Show ("Actualizado");
