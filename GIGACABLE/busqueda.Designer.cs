@@ -1,4 +1,4 @@
-namespace GIGACABLE
+﻿namespace GIGACABLE
 {
     partial class busqueda
     {

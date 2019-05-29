@@ -36,7 +36,7 @@
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
     <Reference Include="MySql.Data">
-      <HintPath>MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\a\GIGACABLE\GIGACABLE\GIGACABLE\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -55,14 +55,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Reporte.cs" />
-    <Compile Include="TipoDeReporte.cs" />
-    <Compile Include="Usuario.cs" />
-    <Compile Include="UsuarioForm.cs">
+    <Compile Include="usuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UsuarioForm.Designer.cs">
-      <DependentUpon>UsuarioForm.cs</DependentUpon>
+    <Compile Include="usuario.Designer.cs">
+      <DependentUpon>usuario.cs</DependentUpon>
     </Compile>
     <Compile Include="busqueda.cs">
       <SubType>Form</SubType>
@@ -70,17 +67,17 @@
     <Compile Include="busqueda.Designer.cs">
       <DependentUpon>busqueda.cs</DependentUpon>
     </Compile>
-    <Compile Include="TecnicoForm.cs">
+    <Compile Include="Tecnico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TecnicoForm.Designer.cs">
-      <DependentUpon>TecnicoForm.cs</DependentUpon>
+    <Compile Include="Tecnico.Designer.cs">
+      <DependentUpon>Tecnico.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReporteForm.cs">
+    <Compile Include="detalles.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReporteForm.Designer.cs">
-      <DependentUpon>ReporteForm.cs</DependentUpon>
+    <Compile Include="detalles.Designer.cs">
+      <DependentUpon>detalles.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -95,17 +92,17 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="UsuarioForm.resx">
-      <DependentUpon>UsuarioForm.cs</DependentUpon>
+    <EmbeddedResource Include="usuario.resx">
+      <DependentUpon>usuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="busqueda.resx">
       <DependentUpon>busqueda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TecnicoForm.resx">
-      <DependentUpon>TecnicoForm.cs</DependentUpon>
+    <EmbeddedResource Include="Tecnico.resx">
+      <DependentUpon>Tecnico.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReporteForm.resx">
-      <DependentUpon>ReporteForm.cs</DependentUpon>
+    <EmbeddedResource Include="detalles.resx">
+      <DependentUpon>detalles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

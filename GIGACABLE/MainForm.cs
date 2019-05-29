@@ -22,8 +22,7 @@ namespace GIGACABLE
  
  		private String conn;
         private MySqlConnection connect;
-        usuario llamada1 = new usuario();
-        Tecnico llamada3= new Tecnico();
+        String id;
         public MainForm()
 		{
             
@@ -60,9 +59,10 @@ namespace GIGACABLE
             MySqlDataReader login = cmd.ExecuteReader();
             if (login.Read())
             {
-            	//TODO: Guardar id del usuario
-            	llamada1.id = login[0].ToString();
-            	llamada1.setBienvenida(login[0].ToString());
+            	//TODO: Guardar id del usuario. DONE
+            	//TODO:Guardar id y dirigir a técnico o usuario.
+            	id = login[0].ToString();
+            	//llamada1.setBienvenida();
                 connect.Close();
                 return true;
             }
@@ -77,25 +77,36 @@ namespace GIGACABLE
         void Button1Click(object sender, EventArgs e)
 		{
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Yes;
+	        usuario llamada1 = new usuario();
 
             if (radioButton1.Checked == true)
             {
             	if(validate_login(textBox1.Text,textBox2.Text,"usuario")){
+            		this.Hide();
+            		llamada1.id_usuario = id;
+            		llamada1.setBienvenida();
             		llamada1.ShowDialog();
+            		cleanSignIn();
+            		this.Show();
             	}else{
             		MessageBox.Show ("Usuario o contraseña incorrectos");
             	}
                 //llamada1.Show();
                 //_ = llamada1.DialogResult == DialogResult.Yes;
-
             }
             else
             {        
 				if(validate_login(textBox1.Text,textBox2.Text,"tecnico")){
+            		this.Hide();
+            		Tecnico llamada3= new Tecnico(id);
+            		llamada3.id_tecnico = id;
+            		llamada3.setBienvenida();
             		llamada3.ShowDialog();
+            		cleanSignIn();
+            		this.Show();
             	}else{
             		MessageBox.Show ("Usuario o contraseña incorrectos");
-            	}            	
+            	}
                     
                     //llamada3.Show();
                     // _ = llamada3.DialogResult == DialogResult.Yes;
@@ -128,6 +139,10 @@ namespace GIGACABLE
         private void RadioButton2_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+        private void cleanSignIn(){
+        	textBox1.Text = "";
+        	textBox2.Text = "";
         }
     }
 }
